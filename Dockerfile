@@ -12,7 +12,7 @@ WORKDIR /app
  
 # Run command as described:
 # go build will build an executable file named server in the current directory
-RUN go build -o cmd/server
+RUN go build -o server .
  
 # Run the server executable
 CMD [ "/app/server" ]
