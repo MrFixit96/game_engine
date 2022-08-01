@@ -3,7 +3,7 @@ package main // import "github.com/mrfixit96/game_engine
 import (
 	"os"
 
-	"github.com/mrfixit96/game_engine/cmd/server"
+	"github.com/mrfixit96/game_engine/cmd/server/main"
 )
 
 func main() {
